@@ -41,6 +41,7 @@ odoo.define({
 }).then(userId => console.log(userId))
 .catch(err => console.error(err));
 ```
+The `odoo.define(arguments)` method arguments object is optional and can be provided later if needed.
 
 ### listDatabases()
 
