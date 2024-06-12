@@ -1,6 +1,14 @@
 This Node.js library provides an interface to interact with an Odoo server via its JSON-RPC API. It includes various methods for managing databases, models, records, and raw
 queries.
 
+## Installation
+
+To install the library, use npm:
+
+```
+npm install odoocon
+```
+
 ## Usage
 
 First, import and configure the library:
