@@ -6,7 +6,7 @@ queries.
 First, import and configure the library:
 
 ```
-const Odoo = require('your-package-name');
+const Odoo = require('odoocon');
 
 const odoo = new Odoo({ jsonrpc: '2.0' });
 
@@ -14,7 +14,7 @@ odoo.define({
     url: 'https://your-odoo-url',
     database: 'your-database',
     username: 'your-username',
-    password: 'your-password'
+    password: 'your-password-or-api-key'
 });
 ```
 
