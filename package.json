@@ -9,7 +9,7 @@
   "homepage": "https://creati.hu",
   "repository": {
     "type": "git",
-    "url": "https://git.creati.hu/publicprojects/odoocon"
+    "url": "https://github.com/creatihu/odoocon"
   },
   "keywords": [
     "odoo",
