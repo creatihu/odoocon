@@ -1,26 +1,35 @@
 {
-  "name": "odoocon",
-  "version": "1.0.0",
-  "description": "A lightweight library for seamless interaction with the Odoo ERP API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "homepage": "https://creati.hu",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/creatihu/odoocon"
-  },
-  "keywords": [
-    "odoo",
-    "api",
-    "connect",
-    "erp",
-    "integration"
-  ],
-  "author": "Attila Tokolics",
-  "license": "GNU GPLv3",
-  "dependencies": {
-    "axios": "^1.7.2"
-  }
+	"name": "odoocon",
+	"version": "1.0.7",
+	"description": "A lightweight library for seamless interaction with the Odoo ERP API.",
+	"main": "index.js",
+	"scripts": {
+		"bump-premajor": "bump premajor --preid dev",
+		"bump-preminor": "bump preminor --preid dev",
+		"bump-prepatch": "bump prepatch --preid dev",
+		"bump-prerelease": "bump prerelease --preid dev",
+		"bump-major": "bump major",
+		"bump-minor": "bump minor",
+		"bump-patch": "bump patch"
+	},
+	"homepage": "https://creati.hu",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/creatihu/odoocon"
+	},
+	"keywords": [
+		"odoo",
+		"api",
+		"connect",
+		"erp",
+		"integration"
+	],
+	"author": "Attila Tokolics",
+	"license": "GNU GPLv3",
+	"dependencies": {
+		"axios": "^1.7.2"
+	},
+	"devDependencies": {
+		"version-bump-prompt": "^6.1.0"
+	}
 }
